@@ -31,7 +31,6 @@ body {
 /* HEADER */
 
 #header {
-  height: 100px;
   background-color: rgba(0, 0, 0, 0.5);
   height: 100px;
   position: sticky;
@@ -41,22 +40,39 @@ body {
 
 /* FOOTER */
 
-#footer {
+footer {
   height: 100px;
   background-color: gray;
+  color: white;
   bottom: 0;
   left: 0;
   right: 0;
   display: flex;
-  align-items: center;
+
   justify-content: space-between;
   gap: 1rem;
 }
 
-#footer .footer-item-left {
+footer .footer-item-left {
   display: flex;
   gap: 1rem;
-  height: 60%;
+  align-items: center;
+  height: 100px;
+}
+
+footer .footer-item-left .song-on {
+  height: 75%;
+}
+
+footer .footer-item-center .song-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.footer-item-center {
+  margin-top: 1rem;
 }
 
 /************************************************
