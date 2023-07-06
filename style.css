@@ -75,6 +75,30 @@ footer .footer-item-center .song-icons {
   margin-top: 1rem;
 }
 
+.song-bar {
+  display: flex;
+  height: 50%;
+}
+
+.song-bar > div {
+  margin: 5px;
+}
+
+.progress-bar {
+  display: flex;
+  flex-grow: 1;
+  gap: 1rem;
+  height: 50%;
+  align-items: center;
+}
+
+.bar {
+  display: block;
+  width: 300px;
+  height: 3px;
+  background-color: #a3a3a3;
+}
+
 /************************************************
                     UTILS
  ************************************************/
