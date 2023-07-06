@@ -95,10 +95,18 @@ footer .footer-item-center .song-icons {
 .bar {
   display: block;
   width: 300px;
-  height: 3px;
+  height: 4px;
   background-color: #a3a3a3;
+  border-radius: 2px;
 }
 
+.white-bar {
+  display: block;
+  width: 30%;
+  height: 4px;
+  background-color: white;
+  border-radius: 2px;
+}
 /************************************************
                     UTILS
  ************************************************/
