@@ -58,6 +58,7 @@ footer .footer-item-left {
   gap: 1rem;
   align-items: center;
   height: 100px;
+  padding: 1rem;
 }
 
 footer .footer-item-left .song-on {
@@ -92,6 +93,14 @@ footer .footer-item-center .song-icons {
   align-items: center;
 }
 
+.bar-small {
+  display: block;
+  width: 100px;
+  height: 4px;
+  background-color: #a3a3a3;
+  border-radius: 2px;
+}
+
 .bar {
   display: block;
   width: 300px;
@@ -107,6 +116,15 @@ footer .footer-item-center .song-icons {
   background-color: white;
   border-radius: 2px;
 }
+
+footer .footer-item-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+
 /************************************************
                     UTILS
  ************************************************/
