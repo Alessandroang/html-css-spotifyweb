@@ -13,6 +13,56 @@ body {
                     LAYOUT
  ************************************************/
 
+#main-content {
+  height: calc(100vh - 100px);
+  display: flex;
+}
+
+#sidebar {
+  width: 300px;
+  background-color: black;
+}
+
+#section-content {
+  width: calc(100% - 300px);
+  overflow: auto;
+}
+
+/* HEADER */
+
+#header {
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100px;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+/* FOOTER */
+
+#footer {
+  height: 100px;
+  background-color: gray;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+#footer .footer-item-left {
+  display: flex;
+  gap: 1rem;
+  height: 60%;
+}
+
+/************************************************
+                    UTILS
+ ************************************************/
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -28,40 +78,6 @@ body {
 .col {
   padding: 1rem;
 }
-
-#main-content {
-  height: calc(100vh - 100px);
-  display: flex;
-}
-
-#footer {
-  height: 100px;
-  background-color: gray;
-}
-
-#sidebar {
-  width: 300px;
-  background-color: black;
-}
-
-#section-content {
-  width: calc(100% - 300px);
-  overflow: auto;
-}
-
-#header {
-  height: 100px;
-  background-color: rgba(0, 0, 0, 0.5);
-  height: 100px;
-  position: sticky;
-  top: 0;
-  left: 0;
-}
-
-/************************************************
-                    UTILS
- ************************************************/
-
 /************************************************
                     SECTION
  ************************************************/
