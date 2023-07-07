@@ -17,11 +17,67 @@
   <body>
     <div id="wrapper">
       <main id="main-content">
-        <nav id="sidebar"></nav>
+        <nav id="sidebar">
+          <div class="sidebar-logo">
+            <img src="./spotify/img/logo.svg" alt="logo-image" />
+          </div>
+          <ul>
+            <li class="main-list">
+              <svg
+                fill="currentColor"
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M448 463.746h-149.333v-149.333h-85.334v149.333h-149.333v-315.428l192-111.746 192 110.984v316.19z"
+                />
+              </svg>
+              Home
+            </li>
+            <li class="main-list">
+              <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M349.714 347.937l93.714 109.969-16.254 13.969-93.969-109.969q-48.508 36.825-109.207 36.825-36.826 0-70.476-14.349t-57.905-38.603-38.603-57.905-14.349-70.476 14.349-70.476 38.603-57.905 57.905-38.603 70.476-14.349 70.476 14.349 57.905 38.603 38.603 57.905 14.349 70.476q0 37.841-14.73 71.619t-40.889 58.921zM224 377.397q43.428 0 80.254-21.461t58.286-58.286 21.461-80.254-21.461-80.254-58.286-58.285-80.254-21.46-80.254 21.46-58.285 58.285-21.46 80.254 21.46 80.254 58.285 58.286 80.254 21.461z"
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                />
+              </svg>
+              Cerca
+            </li>
+            <li class="main-list">
+              <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M291.301 81.778l166.349 373.587-19.301 8.635-166.349-373.587zM64 463.746v-384h21.334v384h-21.334zM192 463.746v-384h21.334v384h-21.334z"
+                  fill="currentColor"
+                />
+              </svg>
+              La tua libreria
+            </li>
+          </ul>
+          <div class="playlist">
+            <h3>PLAYLIST</h3>
+            <div class="new-playlist">
+              <div class="plus-btn">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+              Crea Playlist
+            </div>
+          </div>
+
+          <div class="box-content">Nome playlist</div>
+          <div class="box-content">Nome playlist</div>
+          <div class="box-content">Nome playlist</div>
+          <div class="box-content">Nome playlist</div>
+          <div class="box-content">Nome playlist</div>
+          <div class="box-content">Nome playlist</div>
+        </nav>
         <section id="section-content">
           <header>
             <button>effettua l'upgrade</button>
           </header>
+
+          <!-- Main-nav -->
+
           <div>
             <nav id="main-nav">
               <ul>
@@ -46,8 +102,57 @@
               </ul>
             </nav>
           </div>
+
+          <!-- SECTION-CARD -->
+          <div class="container">
+            <div class="col bordered">
+              <div class="card">
+                <div class="box-content">Intro content</div>
+                <div class="box-content">Intro content</div>
+                <div class="box-content">Intro content</div>
+              </div>
+            </div>
+            <div class="col bordered">
+              <div class="card">
+                <div class="box-content">Intro content</div>
+                <div class="box-content">Intro content</div>
+                <div class="box-content">Intro content</div>
+              </div>
+            </div>
+            <div class="col bordered">
+              <div class="card">
+                <div class="box-content">Intro content</div>
+                <div class="box-content">Intro content</div>
+                <div class="box-content">Intro content</div>
+              </div>
+            </div>
+            <div class="col bordered">
+              <div class="card">
+                <div class="box-content">Intro content</div>
+                <div class="box-content">Intro content</div>
+                <div class="box-content">Intro content</div>
+              </div>
+            </div>
+            <div class="col bordered">
+              <div class="card">
+                <div class="box-content">Intro content</div>
+                <div class="box-content">Intro content</div>
+                <div class="box-content">Intro content</div>
+              </div>
+            </div>
+            <div class="col bordered">
+              <div class="card">
+                <div class="box-content">Intro content</div>
+                <div class="box-content">Intro content</div>
+                <div class="box-content">Intro content</div>
+              </div>
+            </div>
+          </div>
         </section>
       </main>
+
+      <!-- FOOTER -->
+
       <footer>
         <div class="footer-item-left">
           <img src="./spotify/img/sinister.jpeg" class="song-on" alt="" />
@@ -62,11 +167,21 @@
         </div>
         <div class="footer-item-center">
           <div class="song-icons">
-            <i class="fa-solid fa-shuffle"></i>
-            <i class="fa-solid fa-backward-step"></i>
-            <i class="fas fa-circle-play fa-2x"></i>
-            <i class="fa-solid fa-forward-step"></i>
-            <i class="fa-solid fa-rotate-right"></i>
+            <a href="#">
+              <i class="fa-solid fa-shuffle"></i>
+            </a>
+            <a href="#">
+              <i class="fa-solid fa-backward-step"></i>
+            </a>
+            <a href="#">
+              <i class="fas fa-circle-play fa-2x"></i>
+            </a>
+            <a href="#">
+              <i class="fa-solid fa-forward-step"></i>
+            </a>
+            <a href="#">
+              <i class="fa-solid fa-rotate-right"></i>
+            </a>
           </div>
           <div class="song-bar">
             <div>0:25</div>
@@ -79,10 +194,18 @@
           </div>
         </div>
         <div class="footer-item-right">
-          <i class="fa-solid fa-list"></i>
-          <i class="fa-solid fa-desktop"></i>
-          <i class="fa-solid fa-volume-high"></i>
-          <span class="bar-small"></span>
+          <a href="#">
+            <i class="fa-solid fa-list"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-desktop"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-volume-high"></i>
+          </a>
+          <span class="bar-small">
+            <span class="white-bar"></span>
+          </span>
         </div>
       </footer>
     </div>
