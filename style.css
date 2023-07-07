@@ -262,11 +262,11 @@ li {
 
 /* DEBUG */
 
-.bordered,
+/* .bordered,
 .col {
   border: 2px dashed red;
   min-height: 50px;
-}
+} */
 
 a {
   text-decoration: none;
