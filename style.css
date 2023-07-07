@@ -101,7 +101,7 @@ footer .footer-item-left {
 }
 
 footer .footer-item-left .song-on {
-  height: 75%;
+  height: 100%;
 }
 
 footer .footer-item-center .song-icons {
@@ -164,6 +164,19 @@ footer .footer-item-right {
   padding: 1rem;
 }
 
+/* CARD-SECTION */
+
+.container img {
+  width: 100%;
+}
+
+.subtitle {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
 /************************************************
                     SIDEBAR
  ************************************************/
@@ -221,17 +234,6 @@ footer .footer-item-right {
   margin-right: auto;
   max-width: 100%;
   padding: 0 1rem;
-  display: flex;
-  justify-content: space-between;
-}
-
-.row {
-  margin-left: -1rem;
-  margin-right: -1rem;
-}
-
-.col {
-  padding: 1rem;
 }
 
 li {
@@ -241,15 +243,21 @@ li {
 .container .row {
   margin-left: -1rem;
   margin-right: -1rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .container .row .col {
   padding: 1rem;
+  width: 200px;
 }
 
 .card {
-  background-color: blue;
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* DEBUG */
