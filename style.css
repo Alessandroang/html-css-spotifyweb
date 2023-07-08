@@ -67,6 +67,10 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  scale: 1.05;
+}
+
 #main-content {
   height: calc(100vh - 80px);
   display: flex;
@@ -191,7 +195,7 @@ footer .footer-item-right {
 }
 
 .box-content {
-  line-height: 40px;
+  line-height: 25px;
   margin-top: 1rem;
 }
 
@@ -215,6 +219,7 @@ footer .footer-item-right {
   margin-left: -1rem;
   line-height: 2rem;
   display: flex;
+  cursor: pointer;
 }
 
 .main-list:hover {
@@ -249,7 +254,6 @@ li {
 }
 
 .container .row .col {
-  padding: 1rem;
   width: 200px;
 }
 
@@ -258,6 +262,39 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+h2 {
+  color: white;
+}
+
+.box-content {
+  position: relative;
+}
+
+.button-play {
+  font-size: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 98%;
+  background-color: #00000050;
+  color: #f3f3f3;
+  opacity: 0;
+}
+
+.box-content:hover .button-play {
+  opacity: 1;
+}
+
+.box-content {
+  cursor: pointer;
+  border-radius: 3px;
 }
 
 /* DEBUG */
